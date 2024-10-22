@@ -1,10 +1,14 @@
-import { useTranslations } from "next-intl";
+import { AuthorListType } from '@/app/types';
+import HomeSideNav from './ui/home/sidenav';
 
-export default function Home() {
-	const t = useTranslations()
+type HomePageProps = {};
+
+export default async function HomePage(props: HomePageProps) {
+	const authors = [] as AuthorListType;
+	
 	return (
 		<div className='container'>
-			{t("listOfAuthors")}
+			<HomeSideNav authors={authors} />
 		</div>
 	);
 }
