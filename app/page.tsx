@@ -4,7 +4,7 @@ import ProductList from '@/app/ui/home/product-list';
 
 type HomePageProps = {};
 
-export default async function HomePage(props: HomePageProps) {
+export default async function HomePage({}: HomePageProps) {
 	return (
 		<div className='container pt-8 box-border'>
 			<Search className='max-w-[100%] mx-auto lg:max-w-[50%]' />
