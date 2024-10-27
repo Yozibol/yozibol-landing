@@ -1,5 +1,3 @@
-import { useTranslations } from 'next-intl';
-
 import { AuthorListType } from '@/app/types';
 import Avatar from '../components/avatar';
 
@@ -8,7 +6,6 @@ type AuthorListProps = {
 };
 
 export default function Authors({ data }: AuthorListProps) {
-	const t = useTranslations();
 	return (
 		<div className='flex flex-col gap-2'>
 			{data &&

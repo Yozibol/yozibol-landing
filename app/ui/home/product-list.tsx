@@ -93,15 +93,16 @@ export default function ProductList(props: ProductListProps) {
 		},
 	] as ProductListType;
 	return (
-		<div className={clsx('py-4 px-3 md:px-2', props.className)}>
-			<div className='flex flex-wrap flex-auto'>
+		<div className={clsx('py-4 lg:px-2', props.className)}>
+			<div className='flex flex-wrap flex-auto gap-1'>
 				{products &&
 					Array.isArray(products) &&
 					products.length > 0 &&
 					products.map((product) => (
 						<ProductListCard
+							key={product?.id}
 							product={product}
-							className='sm:flex-[0_0_33.3%] sm:max-w-[33.3%] flex-[0_0_50%] max-w-[50%]'
+							className='flex-[0_0_49%] max-w-[49%] lg:flex-[0_0_33%] lg:max-w-[33.3%]'
 						/>
 					))}
 			</div>

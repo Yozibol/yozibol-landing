@@ -18,15 +18,16 @@ export default function AvatarComponent({
 	type = 'rounded',
 	className,
 }: AvatarProps) {
+	const avatarSize = size === 'lg' ? 70 : size === 'sm' ? 50 : 60;
 	return (
 		<Image
 			src={src}
-			width={60}
-			height={60}
+			width={avatarSize}
+			height={avatarSize}
 			alt={alt || 'Avatar image'}
 			className={clsx(
-				'w-[60px] h-[60px] flex-shrink-0 object-cover object-center border',
-				type === 'squared' ? 'rounded' : 'rounded-full',
+				`w-[${avatarSize}px] h-[${avatarSize}px] flex-shrink-0 object-cover object-center border`,
+				type === 'squared' ? 'rounded' : 'rounded-[50%]',
 				className
 			)}
 		/>
