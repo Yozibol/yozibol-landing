@@ -2,9 +2,7 @@ import HomeSideNav from '@/app/ui/home/sidenav';
 import Search from '@/app/ui/components/search';
 import ProductList from '@/app/ui/home/product-list';
 
-type HomePageProps = {};
-
-export default async function HomePage({}: HomePageProps) {
+export default async function HomePage() {
 	return (
 		<div className='container pt-8 box-border'>
 			<Search className='max-w-[100%] mx-auto lg:max-w-[50%]' />
