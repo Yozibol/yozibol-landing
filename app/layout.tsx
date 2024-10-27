@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
@@ -24,7 +25,9 @@ export default async function RootLayout({
 		<html lang={locale}>
 			<body className={mainFont.className}>
 				<NextIntlClientProvider messages={messages}>
-					<LayoutHeader />
+					<Suspense>
+						<LayoutHeader />
+					</Suspense>
 					<div className='max-w-7xl mx-auto pt-16 px-3 lg:px-8 xl:px-12'>
 						{children}
 					</div>
