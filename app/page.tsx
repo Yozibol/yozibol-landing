@@ -1,7 +1,8 @@
-import HomeSideNav from '@/app/ui/home/sidenav';
-import Search from '@/app/ui/components/search';
-import ProductList from '@/app/ui/home/product-list';
 import { Suspense } from 'react';
+
+import HomeSideNav from '@/ui/home/sidenav';
+import Search from '@/ui/components/search';
+import ProductList from '@/ui/home/product-list';
 
 export default async function HomePage() {
 	return (

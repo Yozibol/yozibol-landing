@@ -4,7 +4,7 @@ import { useSearchParams, usePathname, useRouter } from 'next/navigation';
 import { HiOutlineSearch } from 'react-icons/hi';
 import clsx from 'clsx';
 
-import { useDebouncedCallback } from '@/app/hooks/useDebouncedCallback';
+import { useDebouncedCallback } from '@/hooks/useDebouncedCallback';
 
 type SearchProps = {
 	placeholder?: string;

@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import { ProductListItemType } from '@/app/types';
+import { ProductListItemType } from '@/types';
 import Image from 'next/image';
 
 type ProductListCardProps = {

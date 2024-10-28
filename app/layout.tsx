@@ -3,10 +3,9 @@ import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 
-import { mainFont } from '@/app/ui/fonts';
-import LayoutHeader from '@/app/ui/layout/header';
-
-import './globals.css';
+import { mainFont } from '@/ui/fonts';
+import LayoutHeader from '@/ui/layout/header';
+import '@/assets/styles/globals.css';
 
 export const metadata: Metadata = {
 	title: 'Yozibol',

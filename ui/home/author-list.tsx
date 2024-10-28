@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 
-import { AuthorListType } from '@/app/types';
+import { AuthorListType } from '@/types';
 import Avatar from '../components/avatar';
 
 type AuthorListProps = {

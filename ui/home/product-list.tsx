@@ -1,16 +1,16 @@
 import clsx from 'clsx';
 
-import Img1 from '@/app/assets/images/products/1.png';
-import Img2 from '@/app/assets/images/products/2.jpg';
-import Img3 from '@/app/assets/images/products/3.jpeg';
-import Img4 from '@/app/assets/images/products/4.jpeg';
-import Img5 from '@/app/assets/images/products/5.jpeg';
-import Img6 from '@/app/assets/images/products/6.jpeg';
-import Img7 from '@/app/assets/images/products/7.jpeg';
-import Img8 from '@/app/assets/images/products/8.jpeg';
-import Img9 from '@/app/assets/images/products/9.jpeg';
+import Img1 from '@/assets/images/products/1.png';
+import Img2 from '@/assets/images/products/2.jpg';
+import Img3 from '@/assets/images/products/3.jpeg';
+import Img4 from '@/assets/images/products/4.jpeg';
+import Img5 from '@/assets/images/products/5.jpeg';
+import Img6 from '@/assets/images/products/6.jpeg';
+import Img7 from '@/assets/images/products/7.jpeg';
+import Img8 from '@/assets/images/products/8.jpeg';
+import Img9 from '@/assets/images/products/9.jpeg';
 
-import { ProductListType } from '@/app/types';
+import { ProductListType } from '@/types';
 import ProductListCard from './product-list-card';
 
 type ProductListProps = {

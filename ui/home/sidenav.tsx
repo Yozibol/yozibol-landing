@@ -2,17 +2,17 @@ import { Fragment } from 'react';
 import { useTranslations } from 'next-intl';
 import clsx from 'clsx';
 
-import { AuthorListType } from '@/app/types';
+import { AuthorListType } from '@/types';
 
 import Authors from './author-list';
 
-import Temur from '@/app/assets/images/32139112_67373631_avatar.jpeg';
-import Shaxzoda from '@/app/assets/images/37979595_95436269_avatar.jpeg';
-import Kunduziy from '@/app/assets/images/41135978_5372451_avatar.jpeg';
-import AkbarYusupov from '@/app/assets/images/63167179_88033440_avatar.jpeg';
-import Konsta from '@/app/assets/images/94183624_22106680_avatar.jpeg';
-import Chumolilar from '@/app/assets/images/IMG_0225.jpeg';
-import TrollUz from '@/app/assets/images/IMG_1699.jpeg';
+import Temur from '@/assets/images/32139112_67373631_avatar.jpeg';
+import Shaxzoda from '@/assets/images/37979595_95436269_avatar.jpeg';
+import Kunduziy from '@/assets/images/41135978_5372451_avatar.jpeg';
+import AkbarYusupov from '@/assets/images/63167179_88033440_avatar.jpeg';
+import Konsta from '@/assets/images/94183624_22106680_avatar.jpeg';
+import Chumolilar from '@/assets/images/IMG_0225.jpeg';
+import TrollUz from '@/assets/images/IMG_1699.jpeg';
 
 type HomeSideNavProps = {
 	visible?: boolean;
