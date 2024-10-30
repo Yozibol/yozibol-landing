@@ -8,13 +8,23 @@ export type AuthorListItemType = {
 
 export type AuthorListType = AuthorListItemType[];
 
-export type ProductListItemType = {
+export enum MerchSizes {
+	S = 'S',
+	M = 'M',
+	L = 'L',
+	XL = 'XL',
+	XXL = 'XXL',
+	XXXL = 'XXXL',
+}
+
+export type MerchType = {
 	id: string;
 	category: string;
 	name: string;
+	description?: string;
 	price: number;
 	author: string;
-	thumbnail: string | StaticImageData;
+	thumbnails: (string | StaticImageData)[];
+	sizes: MerchSizes[];
 };
-
-export type ProductListType = ProductListItemType[];
+export type ProductListType = MerchType[];

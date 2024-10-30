@@ -21,12 +21,14 @@ export default function AvatarComponent({
 	const avatarSize = size === 'lg' ? 70 : size === 'sm' ? 50 : 60;
 	return (
 		<Image
+			loading='lazy'
 			src={src}
 			width={avatarSize}
 			height={avatarSize}
 			alt={alt || 'Avatar image'}
+			style={{ width: avatarSize, height: avatarSize }}
 			className={clsx(
-				`w-[${avatarSize}px] h-[${avatarSize}px] flex-shrink-0 object-cover object-center border`,
+				`flex-shrink-0 object-cover object-center border`,
 				type === 'squared' ? 'rounded' : 'rounded-[50%]',
 				className
 			)}

@@ -2,5 +2,9 @@
 	"listOfAuthors": "List of Authors",
 	"login": "Login",
 	"marketplace": "Marketplace",
-	"authors": "Authors"
+	"authors": "Authors",
+	"add": "Add",
+	"selectSize": "Select a size",
+	"cloth": "Cloth",
+	"select_size_error": "Please select the size of a merch"
 }

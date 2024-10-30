@@ -2,5 +2,9 @@
 	"listOfAuthors": "Список авторов",
 	"login": "Войти",
 	"marketplace": "Магазин",
-	"authors": "Авторы"
+	"authors": "Авторы",
+	"add": "Добавить",
+	"selectSize": "Выберите размер",
+	"cloth": "Ткань",
+	"select_size_error": "Пожалуйста, выберите размер товара"
 }

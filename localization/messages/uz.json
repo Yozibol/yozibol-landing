@@ -2,5 +2,9 @@
 	"listOfAuthors": "Mualliflar ro'yxati",
 	"login": "Kirish",
 	"marketplace": "Do'kon",
-	"authors": "Mualliflar"
+	"authors": "Mualliflar",
+	"add": "Qo'shish",
+	"selectSize": "O'lchamni tanlang",
+	"cloth": "Mato",
+	"select_size_error": "Iltimos, mahsulot o'lchamini tanlang"
 }
